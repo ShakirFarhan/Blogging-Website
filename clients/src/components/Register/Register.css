@@ -1,0 +1,211 @@
+.register-page{
+  background-color:rgba(242, 248, 247, 1);
+height: 870px
+}
+.register-card{
+  width: 530px;
+  height: fit-content;
+  background-color: rgba(242, 248, 247, 1);
+  position: relative;
+  top: 6%;
+  padding-top: 3%;
+ padding-left: 4%;
+ padding-right: 4%;
+ border-radius: 1%;
+ box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+}
+.registerInput{
+  background-color: rgba(242, 248, 247, 1);
+}
+.rText{
+font-size: 15px;
+}
+.rTick{
+  height: 14px;
+  width: 18px;
+}
+.pos{
+  padding: 6.2px;
+  background-color:#00aaa1 ;
+  position: absolute;
+  top: 33px;
+  left:370px;
+  border-radius: 15px 0px 0px 14px;
+  right: 0px;
+  border: none;
+font-size: 16px;
+font-weight: 500;
+cursor: pointer;
+color: #fff;
+}
+.login{
+  color:#00aaa1;
+  text-decoration:underline;
+  font-weight: 600;
+}
+.password{
+  position: relative;
+}
+.form-text{
+  font-size: 12px;
+}
+.registerinput:focus{
+  /* border: 2px solid black; */
+  outline: 0;
+  text-decoration: none;
+}
+.errorText{
+  color: red;
+}
+.register-btn{
+  position: relative;
+  height: 60px;
+}
+.register-spinner{
+ position: absolute;
+ top: 10px;
+ left: 40%;
+}
+
+@media screen and (max-width:2400px) {
+  .register-card{
+   width: 700px;
+height: 730px;
+padding-top: 3%;
+padding-left: 5%;
+padding-right: 5%;
+  }
+
+  .pos{
+   left: 420px;
+  }
+}
+@media screen and (max-width:1600px) {
+  .register-card{
+   width: 590px;
+height: 730px;
+padding-top: 3%;
+padding-left: 5%;
+padding-right: 5%;
+  }
+  .pos{
+    /* width:80px */
+    left: 380px;
+   }
+
+}
+@media screen and (max-width:800px) {
+  .register-card{
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+width: 450px;
+height: 730px;
+  }
+  .pos{
+    width:70px;
+    left: 273px;
+    
+  }
+ 
+}
+@media screen and (max-width:1200px) {
+.register-card{
+  width: 460px;
+}
+.pos{
+  left: 270px;
+}
+ 
+}
+@media screen and (max-width:796px) {
+  .pos{
+    width:85px;
+    left: 273px;
+    
+  }
+ 
+}
+@media screen and (max-width:721px) {
+  .pos{
+    width:75px;
+    left: 290px;
+    
+  }
+ 
+}
+@media screen and (max-width:668px) {
+  .pos{
+    width:75px;
+    left: 296px;
+    
+  }
+ 
+}
+@media screen and (max-width:621px) {
+  .pos{
+    width:75px;
+    left: 302px;
+    
+  }
+ 
+}
+@media screen and (max-width:579px) {
+  .pos{
+    width:75px;
+    left: 310px;
+    
+  }
+ 
+}
+@media screen and (max-width:520px) {
+  .pos{
+    width:75px;
+    left: 315px;
+    
+  }
+ 
+}
+@media screen and (max-width:500px) {
+  .register-card{
+ 
+width: 370px;
+  }
+  .pos{
+    width:70px;
+    left: 232px;
+  }
+  .rText{
+   font-size: 14px
+   
+  }
+  .rTick{
+    height: 12px;
+    width: 20px;
+  }
+ 
+}
+@media screen and (max-width:480px) {
+  .pos{
+    width:75px;
+    left: 240px;
+    
+  }
+ 
+}
+@media screen and (max-width:402px) {
+  .register-card{
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+width: 340px;
+  }
+  .pos{
+    width:75px;
+    left: 214px;
+   
+    
+  }
+ 
+}

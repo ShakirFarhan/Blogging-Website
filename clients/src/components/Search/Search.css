@@ -1,0 +1,119 @@
+.icon-btn{
+  background:transparent;
+}
+
+.search-icon{
+  width: 23px;
+  height: 23px;
+  color: black;
+}
+.search-bar{
+  display: flex;
+  column-gap: 30px;
+  padding: 2% 5%;
+  background-color:
+  rgba(242, 248, 247, 1);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+margin-top: 3%;
+border-radius: 13px;
+
+}
+.search-section{
+  /* padding: -4px 0px; */
+  padding-top: -1%;
+  text-align: start;
+  flex: 1;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  color: black;
+}
+.search-section::placeholder{
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: normal;
+}
+.active{
+  border-bottom: 1px solid #7f7f7f;
+  width: fit-content;
+  padding-bottom: 4px;
+}
+.search-query{
+  display: flex;
+  column-gap: 3%;
+  /* border-bottom: 1px solid black; */
+}
+.search-query button{
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #7f7f7f;
+  margin-top: 1.5%;
+  margin-left: 10px;
+ background-color: transparent;
+}
+.blog-related-search:hover,.blog-related-search:focus{
+  /* color: rgba(0, 170, 161, 1); */
+  border-bottom: 2px solid rgba(0, 170, 161, 1) ;
+
+}
+.blog-related-search,.author-related-search,.category-related-search{
+  padding-bottom: 4px;
+}
+.blog-related-search:focus,.blog-related-search:hover{
+  color: rgba(0, 170, 161, 1);
+}
+.author-related-search:focus,.author-related-search:hover{
+  color: rgba(0, 170, 161, 1);
+
+}
+.category-related-search:focus,.category-related-search:hover{
+  color: rgba(0, 170, 161, 1);
+
+}
+.noResults{
+  display: flex;
+  flex-direction: column;
+  row-gap: -10px;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.noResults p{
+  font-size: 15.2px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: #7f7f7f;
+}
+.searchProfile{
+  width: 62px;
+  height: 62px;
+  /* background-color: #7f7f7f; */
+  border-radius: 31px;
+}
+.searchUsername{
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #262626;
+}
+.searchFullname{
+  font-size: 12px;
+  font-weight: 500;
+  color: #8e8e8e;
+  margin-top: -15px;
+}
+.searchBtn{
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #313638;
+  margin-right: 20px;
+  padding: 7px;
+  width: 57px;
+  color: #fff;
+  border-radius: 2px;
+}
+.search-spinner{
+ margin-left: -60px;
+}

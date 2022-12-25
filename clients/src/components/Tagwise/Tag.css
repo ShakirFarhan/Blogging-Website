@@ -1,0 +1,16 @@
+.tagHeader{
+  font-size: 30px;
+  font-weight: 700;
+}
+.no-results{
+  width: 44%;
+  height: 44%;
+  text-align: center;
+  margin-left: 30%;
+}
+@media screen and (max-width:850px){
+
+  .tagHeader{
+    font-size: 24px;
+  }
+}

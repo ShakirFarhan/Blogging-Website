@@ -1,0 +1,401 @@
+.profile-container{
+  width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: 
+  rgba(242, 248, 247, 1);
+}
+.profile-section{
+  display: flex;
+  column-gap: 3%;
+  align-items: center;
+  padding-top: 5%;
+padding-bottom: 3.5%;
+width: 100%;
+  
+}
+.profile-description{
+  line-height: 25px;
+}
+.profile-image{
+ width: 400px;
+  height: 400px;
+object-fit:cover;
+}
+.no-followings{
+  background-color: #313638;
+  font-size: 20px;
+}
+.profile-info{
+  width: 59%;
+  letter-spacing: 0.2px;
+  color: 
+  rgba(85, 85, 85, 1);
+}
+.nousers{
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  /* align-content: center;al */
+position: absolute;
+top: 46%;
+left: 34%;
+}
+.profile-name{
+  font-size: 28px;
+  font-size: 700;
+  color:#292929;
+}
+.follow-flex{
+  display: flex;
+
+  column-gap: 3%;
+}
+.profile-btn{
+  /* padding: 0px 18px 0px 18px; */
+  background-color: #313638;
+  border: none;
+  width: 90px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 24px;
+  cursor: pointer;
+  letter-spacing: 0.6px;
+}
+.disable{
+  display: none;
+}
+.total-followers{
+  font-size: 15px;
+  font-weight: 500;
+  color:#292929;
+}
+.social-flex{
+  display: flex;
+  column-gap: 4%;
+  align-items: center;
+}
+.social-media{
+  font-size: 16px;
+  font-weight: 500;
+}
+.my-blog-single{
+  min-width: 95%;
+}
+.my-blog-category{
+  width: fit-content;
+}
+.my-blogs{
+  background-color: #ffff;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+}
+.my-blog-category{
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.my-blogs-flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+row-gap: 5%;
+}
+.no-post-img{
+  /* width: 300px; */
+  text-align: center;
+}
+.no-postImg{
+  width: 40%;
+  margin-bottom: 3%;
+  margin-top: -5%;
+}
+.noPostFlex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-right: 8%;
+}
+button{
+  border: none;
+}
+.edit-btn{
+  background-color: #292929;
+  color: #fff;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 95px;
+  height: 30px;
+
+}
+
+.loading-div{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.profile-update{
+  display: flex;
+  column-gap: 2%;
+}
+.profile-update button{
+  font-size: 13px;
+  background-color: rgba(242, 248, 247, 1);
+
+  border: none;
+}
+.modal{
+  z-index: 6;
+  background-color: black;
+}
+.profile-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.followers{
+  cursor: pointer;
+}
+.followingProfile{
+  width: 43px;
+  height: 40px;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+.imageFlex{
+  display: flex;
+  align-items: flex-start;
+  /* width: 50%; */
+  justify-content: center;
+  
+  column-gap: 10px;
+}
+.fUsername{
+  font-size: 11px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #262626;
+}
+.fullName{
+  font-size: 9px;
+  font-weight: 500;
+  color: #8e8e8e;
+  margin-top: -15px;
+}
+.fflex{
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  /* justify-content: flex-end; */
+
+  /* height: 40px; */
+
+row-gap: -40px;
+}
+.following-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* row-gap: -20px; */
+}
+.main-container{
+  
+  width: 100%;
+  padding-left: 20px;
+  /* padding-top: 10px; */
+}
+.fBtn{
+  font-size: 10px;
+  font-weight: 500;
+  background-color: #313638;
+  margin-right: 20px;
+  padding: 5.5px;
+  width: 50px;
+  color: #fff;
+  border-radius: 2px;
+}
+.fSpinner{
+  position: absolute;
+  top: 43%;
+  left: 43%;
+}
+button{
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: none;
+  outline: none;
+}
+a:hover .category{
+  color: rgba(85, 85, 85, 1);
+
+}
+
+@media screen and (max-width:2400px) {
+  .my-blogs-flex{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width:1600px) {
+  .my-blogs-flex{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .my-blog-single{
+    min-width: 90%;
+  }
+}
+@media screen and (max-width:1169px) {
+  .my-blog-single h2{
+    font-size:24px;
+  }
+}
+@media screen and (max-width:1057px){
+  .profile-image{
+    max-width: 320px;
+    height: 200px;
+    margin-bottom: 3%;
+  }
+  .profile-info{
+    max-width:400px;
+   
+  }
+  .profile-description{
+    width: 120%;
+  }
+   .my-blogs-flex{
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .my-blogs{
+    background-color: #ffff;
+    padding-left: 0;
+    margin-left: 8%;
+    padding-right: 0;
+    /* margin-right: -3%; */
+    padding-top: 4%;
+  }
+  .my-blog-single{
+    min-width: 75%;
+  }
+}
+@media screen and (max-width:930px){
+  .profile-description{
+    font-size: 13px;
+    padding-right: 5%;
+
+  }
+  .profile-image{
+    max-width: 290px;
+
+  }
+  .profile-btn{
+    padding: 0px 14px 0px 14px;
+  }
+}
+@media screen and (max-width:731px){
+  .my-blog-single h2{
+    font-size:22px;
+  }
+  .my-blog-single{
+    min-width: 85%;
+    padding-top: 4%;
+  }
+}
+@media screen and (max-width:800px){
+.loading-div{
+  left: 38%;
+}
+}
+@media screen and (max-width:700px){
+  .profile-section{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .profile-image{
+    max-width: 170px;
+    height: 170px;
+    border-radius: 50%;
+  }
+  .profile-description{
+  text-align: start;
+  margin-right: 4%;
+  min-width: 540px;
+  }
+  .profile-container{
+    margin-right: 5%;
+  }
+  .my-blogs{
+    padding-top: 7%;
+  }
+.loading-div{
+  left: 34.4%;
+}
+}
+@media screen and (max-width:587px) {
+  .profile-description{
+   
+    min-width: 500px;
+    }
+    .loading-div{
+      left: 28.4%;
+    }
+}
+@media screen and (max-width:552px) {
+.follow-flex{
+  /* width: 100%; */
+  column-gap: 15%;
+  letter-spacing: 0;
+  flex-direction: column;
+}
+.profile-name{
+  font-size: 24px;
+}
+.profile-btn{
+  font-size: 11px;
+  width: 80px;
+  height: 30px;
+  margin-bottom: 4%;
+}
+.profile-description{
+   
+  min-width: 430px;
+  }
+  .my-blogs-flex{
+    grid-template-columns: 1fr;
+    margin-left: 11%;
+    row-gap: 1%;
+    
+  }
+  .my-blog-single{
+    min-width: 75%
+  }
+ 
+}
+@media screen and (max-width:480px) {
+  .profile-description{
+   
+    min-width: 380px;
+    }
+    .my-blogs{
+      padding-top: 9%;
+    }
+    .loading-div{
+     left: 26%;
+    }
+}
+@media screen and (max-width:421px) {
+  .profile-description{
+   
+    min-width: 330px;
+    }
+    .loading-div{
+      left: 21%;
+     }
+}

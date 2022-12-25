@@ -1,0 +1,21 @@
+.sharing-apps{
+  display: flex;
+  /* flex-direction: column; */
+  column-gap: 16px;
+ box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  padding: 6px 20px 10px 20px;
+ max-width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  /* display: none; */
+  background-color: #fafafa;
+}
+
+.shareIcons{
+  border-radius: 20px;
+  transition: 0.3s all;
+}
+.shareIcons:hover{
+
+ margin-bottom: 70px;
+}
