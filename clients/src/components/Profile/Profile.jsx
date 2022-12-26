@@ -131,13 +131,20 @@ function Profile() {
     else {
       setFollowerSpinner(true)
       let userFollowers = []
-      followings.map(async (e, index) => {
+      followers.map(async (e, index) => {
         console.log(e)
         if (index < followers.length) {
           const res = await getUserById(e)
+          console.log(res)
+
           userFollowers.push(res.data.success)
-          setFollowersProf([...userFollowers])
           setFollowerSpinner(false)
+          setFollowersProf([...userFollowers])
+          console.log(followersProf)
+
+
+
+
         }
         else {
           return;
@@ -145,6 +152,7 @@ function Profile() {
       })
     }
   }
+  console.log(followersProf)
   useEffect(() => {
     profileUpdate()
     getUser()
@@ -178,7 +186,7 @@ function Profile() {
                         <div style={{ display: followingSpinner ? "none" : "block" }} className='main-container'>
                           <div className='following-container'>
                             <div className='imageFlex'>
-                              <img className='followingProfile' src={e.profilePic} alt="" />
+                              <img className='followingProfile' src={e.profilePic != null ? e.profilePic : defaultprofile} alt="" />
                               <div className='fflex'>
                                 <p className='fUsername'>{e.username}</p>
                                 <p className='fullName'>{e.fullname}</p>
@@ -228,7 +236,7 @@ function Profile() {
                           <div className='following-container'>
 
                             <div className='imageFlex'>
-                              <img className='followingProfile' src={e.profilePic} alt="user profile pic" />
+                              <img className='followingProfile' src={e.profilePic != null ? e.profilePic : defaultprofile} alt="user profile pic" />
                               <div className='fflex'>
                                 <p className='fUsername'>{e.username}</p>
                                 <p className='fullName'>{e.fullname}</p>
